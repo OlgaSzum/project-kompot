@@ -74,6 +74,9 @@
   .advantages-item {
     gap: 0;
   }
+  .advantages-list:last-child{
+    margin-bottom: 109px;
+  }
 }
 
 /* DESKTOP */

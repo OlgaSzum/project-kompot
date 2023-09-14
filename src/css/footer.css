@@ -12,8 +12,6 @@ ul{
 }
 footer{
     position:relative;
-    top:700px;
-
 }
 .shape-icon-footer{
     height: 34px;
@@ -88,7 +86,7 @@ max-width: 260px;}
 }
 @media screen and (min-width:768px){
     footer{
-        top:-50px;
+        margin-top:40px;
     }
 }
 @media screen and (min-width:1200px){
@@ -113,7 +111,8 @@ font-weight: 400;}
 }
 .social-footer{
     margin-top: 80px;
-}}
+}
+footer{margin-top: 40px;}}
 .footer-icon:hover,
 .footer-icon:focus{
     fill:#FCFCFC;
@@ -136,7 +135,8 @@ font-weight: 400;}
     margin: 0 auto;
     line-height: 1.5;
 margin-top: 20px;
-margin-bottom: 20px;}
+margin-bottom: 20px;
+}
 @media screen and (max-width:480px){
     .copyright-wrapper{
         max-width: 165px;

@@ -74,19 +74,24 @@
 }
 
 .gallery-customer-wrapper {
+  min-height: 1070px;
   background-image: url(../images/backgrounds/background_x2.jpg);
-  padding-bottom: 200px;
+  background-position: 50%;
+  background-size: cover;
 }
 
 @media screen and (min-width: 768px) {
   .baner {
     height: 327px;
+    top:-100px;
   }
+  .gallery-customer-wrapper{min-height: 1122px;}
 }
 @media screen and (min-width: 1200px) {
   .baner {
     height: 422px;
   }
+  .gallery-customer-wrapper{min-height: 1110px;}
 }
 
 /* SEKCJA KOMENTARZE */
@@ -149,10 +154,13 @@
   gap: 8px;
 }
 
-.swiper {
-  max-width: 968px;
-  position: relative;
-  padding-bottom: 30px;
+.swiper {  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 32px;
+  height: 100%;
+  width: 100%; 
 }
 .swiper-pagination-bullet {
   width: 12px;
