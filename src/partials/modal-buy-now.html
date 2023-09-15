@@ -33,7 +33,7 @@
 
     <form name="modal-form" class="modal-buy-form">
       <div class="form-buy-wrapper">
-        <input id="user_name" type="text" name="name" placeholder="" class="form-buy-input" />
+        <input id="user_name" type="text" name="name" placeholder="" class="form-buy-input" required />
         <label class="form-buy-label" for="user_name">Name</label>
       </div>
 
@@ -44,8 +44,12 @@
           name="phone_number"
           placeholder=""
           class="form-buy-input"
-        />
-        <label for="phone_number" class="form-buy-label">Phone</label>
+          pattern="\d*"
+          minlength="9"
+          maxlength="12"
+          required
+        >
+        <label for="phone_number" class="form-buy-label" type="tel" required>Phone</label>
       </div>
 
       <div class="form-buy-wrapper">
