@@ -1,8 +1,8 @@
 (() => {
     const refs = {
-      openModalBtn: document.querySelector("[modal-franchise-open]"),
-      closeModalBtn: document.querySelector("[modal-franchise-close]"),
-      modal: document.querySelector("[modal-franchise]"),
+      openModalBtn: document.querySelector(".modal-franchise-open"),
+      closeModalBtn: document.querySelector(".modal-franchise-close"),
+      modal: document.querySelector(".modal-franchise"),
     };
   
     if (!refs.openModalBtn) {
