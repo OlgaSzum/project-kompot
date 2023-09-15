@@ -3,7 +3,7 @@
       openModalBtn: document.querySelector(".modal-buy-now-open"),
       openModalBtnMobile: document.querySelector(".modal-buy-now-open-mobile"),
       closeModalBtn: document.querySelector(".modal-buy-now-close"),
-      modal: document.querySelector("[modal-buy-now]"),
+      modal: document.querySelector("[id=modal-buy-now]"),
     };
   
     if (!refs.openModalBtn) {
@@ -38,4 +38,3 @@
       }
     }
   })();
-  
