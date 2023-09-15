@@ -356,8 +356,11 @@ button {
   left: 16px;
   transition: all 0.2s;
 }
-.field-text:focus + .form-label {
-  transform: translate(-12px, -25px);
+
+.field-text:focus ~ label,
+input:not(:placeholder-shown) ~ label {
+  top: -16px;
+  left: 1px;
   font-size: 9px;
 }
 
