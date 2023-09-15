@@ -1,12 +1,24 @@
-<div class="backdrop is-hidden" modal-our-locations="">
-    <section class="modal">
-        <h1 class="modal__title">Our Locations</h1>
-        <img src="./images/modal.map/map.png" alt="map with directions to sales points" class="modal__image">
-        <button class="about-button">Open map</button>
-        <button class="modal__closebutton close-button" type="button" modal-our-locations-close="">
-            <svg class="modal__closebutton--icon" width="20" height="20">
-                <use href="./images/icons.svg#icon-close"></use>
-            </svg>
-        </button>
-    </section>
+<div class="backdrop is-hidden" modal-our-locations="locations">
+  <section class="modal">
+    <h1 class="modal__title">Our Locations</h1>
+    <img
+      src="./images/modal.map/map.png"
+      alt="map with directions to sales points"
+      class="modal__image"
+    />
+    <!-- <button class="about-button">Open map</button> -->
+    <a
+      href="https://goo.gl/maps/expSHVfVwxbLBAXM9"
+      target="_blank"
+      rel="nofollow noopener noreferrer"
+      class="btn locations-btn"
+    >
+      Open map
+    </a>
+    <button class="modal__closebutton close-button" type="button" modal-our-locations-close="locations">
+      <svg class="modal__closebutton--icon" width="20" height="20">
+        <use href="./images/icons.svg#icon-close"></use>
+      </svg>
+    </button>
+  </section>
 </div>
