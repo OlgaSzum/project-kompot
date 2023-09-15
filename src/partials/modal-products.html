@@ -26,11 +26,10 @@
     </ul>
     <form class="modal-form">
       <div class="modal-field-wrapper">
-        <label for="username"></label>
-        <input class="field-text" id="username" type="text" name="name" placeholder="Name" />
+        <input class="field-text" id="username" type="text" name="name" placeholder="" />
+        <label class="form-label" for="username">Name</label>
       </div>
       <div class="modal-field-wrapper">
-        <label for="phone"></label>
         <input
           class="field-text"
           id="phone"
@@ -39,18 +38,19 @@
           pattern="\d*"
           minlength="9"
           maxlength="12"
-          placeholder="Phone"
+          placeholder=""
           required
         />
+        <label class="form-label" for="phone">Phone</label>
       </div>
       <div class="modal-field-wrapper">
-        <label for="comment"></label>
         <textarea
           class="modal-comment field-text"
           name="comment"
           id="comment"
-          placeholder="Comment"
+          placeholder=""
         ></textarea>
+        <label class="form-label" for="comment">Comment</label>
       </div>
       <button class="button-submit">Submit</button>
     </form>
